@@ -33,7 +33,7 @@ new_year=$(date +'%Y')
 let new_year++
 tput setaf 1; tput bold
 tput cup $lin $((c - 6)); echo FROHE WEIHNACHTEN
-tput cup $lin $((c - 6)); echo Und ein frohes neues Jahr $new_year
+tput cup $lin $((c - 2)); echo FROHE WEIHNACHTEN und ein frohes neues Jahr $new_year
 let c++
 k=1
 
