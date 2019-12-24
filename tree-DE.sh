@@ -57,7 +57,7 @@ while true; do
         column[$k$i]=$co
         color=$(((color+1)%8))
         # Flashing text
-        sh=1
+        # sh=1
     }
     k=$((k % 2 + 1))
 done
